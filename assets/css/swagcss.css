@@ -233,7 +233,7 @@ and (max-device-width : 1024px)  {
 
   /*********************** Home **********************/
   .intro-message-lifesytle-1 {
-    font-size: 20px !important;
+    font-size: 29px !important;
     line-height: 20px !important;
     position: relative;
     top: 20px;
@@ -243,7 +243,7 @@ and (max-device-width : 1024px)  {
    position: relative;
    top: 34px;
    margin-bottom: 20px !important;
- }
+  }
  .into-message {
   padding-top: 80px;
   }
@@ -262,5 +262,31 @@ and (max-device-width : 1024px)  {
     max-width: none !important;
     top: -21px;
     
+  }
+  .into-message-oppurtunities {
+    font-size: 35px !important;
+    position: relative;
+    top: 10px !important;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px  { 
+
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+  .into-message {
+    padding-top: 80px;
+    font-size: 20px !important;
   }
 }
