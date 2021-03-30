@@ -103,6 +103,19 @@
   margin-top: 20px;
 }
 
+.intro-message-lifesytle-1 {
+  font-size: 60px !important;
+  line-height: 20px !important;
+  position: relative;
+  top: -40px;
+}
+.intro-message-lifesytle-2 {
+ font-size: 60px !important;
+ position: relative;
+ top: 20px;
+ margin-bottom: 20px !important;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .bitcoin {
     position: absolute;
@@ -183,4 +196,71 @@
    position: absolute;
    top: 300px !important;
  }
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 1024px)  { 
+
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+  img.retina-logo {
+    width: 91%;
+  }
+  #site-logo img.retina-logo {
+    width: 180px;
+    margin-left: 22px;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 47% !important;
+  }
+
+  /*********************** Home **********************/
+  .intro-message-lifesytle-1 {
+    font-size: 20px !important;
+    line-height: 20px !important;
+    position: relative;
+    top: 20px;
+ }
+ .intro-message-lifesytle-2 {
+   font-size: 40px !important;
+   position: relative;
+   top: 34px;
+   margin-bottom: 20px !important;
+ }
+ .into-message {
+  padding-top: 80px;
+  }
+  .wpb_wrapper {
+    margin-top: 21px;
+  }
+  #main .vc_empty_space {
+    max-height: 102px !important;
+  }
+  rs-fullwidth-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+    top: -21px;
+    
+  }
 }
