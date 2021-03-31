@@ -18,6 +18,12 @@
   background: #122c3f;
   font-size: 14px;
 }
+#site-header.header-overlay #header-wrapper.header-sticky {
+  background-color: black !important;
+}
+#mobile-site-header, #mobile-site-navigation .mobile-menu-header {
+  background: black !important;
+}
 #div_promoters {
   text-align: center !important;
 }
@@ -142,6 +148,9 @@
     width: 180px;
     margin-left: 22px;
   }
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
+  }
   #mobile-site-header #mobile-site-logo {
     position: relative;
     left: 32px;
@@ -230,6 +239,9 @@
   #site-logo img.retina-logo {
     width: 180px;
     margin-left: 22px;
+  }
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
   }
   #mobile-site-header #mobile-site-logo {
     position: relative;
@@ -432,7 +444,9 @@ p.form-reminder {
     margin: 0;
     width: 47% !important;
   }
-
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
+  }
   .border-right {
     border-right: none;
   }
