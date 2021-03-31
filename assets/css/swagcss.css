@@ -121,6 +121,7 @@
   position: relative;
   top: 10px !important;
   margin-bottom: 20px;
+  color: rgb(247, 186, 23);
 }
 
 
@@ -172,6 +173,7 @@
     position: relative;
     top: 10px !important;
     margin-bottom: 20px;
+    color: rgb(247, 186, 23);
   }
   .text-align-left {
     text-align: center;
@@ -239,6 +241,7 @@
     position: relative;
     top: 10px !important;
     margin-bottom: 20px;
+    color: rgb(247, 186, 23);
   }
   .intro-message-lifesytle-1 {
     font-size: 29px !important;
@@ -311,6 +314,7 @@
     position: relative;
     top: 10px !important;
     margin-bottom: 20px;
+    color: rgb(247, 186, 23);
   }
   .text-align-left {
     text-align: center;
