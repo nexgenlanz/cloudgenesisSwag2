@@ -145,6 +145,11 @@
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  
+  .colortext {
+    margin-top: 600px;
+  }
+  
   .bitcoin {
     position: absolute;
     right: -436px;
@@ -234,6 +239,11 @@
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
+
+  .colortext {
+    margin-top: 600px;
+  }
+
   .text-align-left {
     text-align: center;
     font-size: 10px;
@@ -428,8 +438,6 @@ p.form-reminder {
   display: none;
 }
 
-<<<<<<< HEAD
-=======
 h1.blog-details-title {
   text-align: left;
   width: 100%;
@@ -500,17 +508,46 @@ ul.blogs-socialmedia {
   margin-bottom: 100px;
 }
 
+.blog__details__tags {
+  margin-bottom: 60px;
+}
+
+.blog__details__tags a {
+  display: inline-block;
+  font-size: 13px;
+  color: #444444;
+  background: #f2f2f2;
+  padding: 10px 16px;
+  margin-right: 6px;
+}
+
+.blog__details__tags a:last-child {
+  margin-right: 0;
+}
+
 .blog-title {
   text-align: left;
   font-size: 19px;
   font-weight: bold;
 }
 
+.colortext {
+  font-weight:400; 
+  font-size: 80px; 
+  margin-top: 90px; 
+  color: rgb(247, 186, 23);
+}
 
->>>>>>> frontend
+.blog-dt {
+  margin-top: 20px;
+}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+
+  .colortext {
+    margin-top: 600px;
+  }
   .bitcoin {
     position: absolute;
     right: -436px;
