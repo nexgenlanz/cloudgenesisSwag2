@@ -336,4 +336,16 @@
     padding-top: 80px;
     font-size: 20px !important;
   }
+  .intro-message-lifesytle-1 {
+    font-size: 29px !important;
+    line-height: 20px !important;
+    position: relative;
+    top: 20px;
+  }
+  .intro-message-lifesytle-2 {
+    font-size: 40px !important;
+    position: relative;
+    top: 34px;
+    margin-bottom: 20px !important;
+  }
 }
