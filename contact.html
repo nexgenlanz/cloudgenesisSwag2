@@ -185,6 +185,7 @@
      .vc_custom_1590740851126{background-color: .vc_custom_1528999757087 { background-color: black !important; } !important;}.vc_custom_1590658733787{padding-top: 60px !important;padding-bottom: 50px !important;}.vc_custom_1590660975167{margin-top: 30px !important;margin-bottom: 30px !important;background-color: #f7f7fc !important;}.vc_custom_1590663501008{margin-bottom: 32px !important;}.vc_custom_1590672391469{background-color: #070f1e !important;}.vc_custom_1590679774444{padding-top: 70px !important;padding-bottom: 70px !important;background-color: #f7f7fc !important;}.vc_custom_1590679740412{padding-top: 70px !important;padding-bottom: 70px !important;background-color: #070f1d !important;}.vc_custom_1590741595918{margin-top: 20px !important;}.vc_custom_1590741603595{margin-top: 20px !important;}.vc_custom_1590741610423{margin-top: 20px !important;}.vc_custom_1591283895934{margin-bottom: 20px !important;}.vc_custom_1592822003255{margin-bottom: 20px !important;}.vc_custom_1591283352536{margin-bottom: 20px !important;}.vc_custom_1590741652686{margin-top: 20px !important;}.vc_custom_1590741660972{margin-top: 20px !important;}
    </style>
    
+   <link rel='stylesheet' href='assets/css/bootstrap.css' type='text/css' media='all' />
    <link rel='stylesheet' href='assets/css/swagcss.css' type='text/css' media='all' />
 
    <noscript>
@@ -265,11 +266,11 @@
 								<li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726">
 									<a href="crypto.html">Crypto</a>
 								</li>
-                                <li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1609 current_page_item menu-item-1726">
+                                <li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726">
 									<a href="blogs.html">Blogs</a>
 								</li>
-                                <li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726">
-									<a href="contact.html">Contact</a>
+                                <li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1609 current_page_item menu-item-1726">
+                                    <a href="contact.html">Contact</a>
 								</li>
 								<!-- <li id="menu-item-1727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1727">
 									<a href="#">SwagWorld</a>
@@ -324,7 +325,7 @@
 															<img  title="Home" data-parallax="4" class="rev-slidebg" data-no-retina>
 															<!---->                         
 															<rs-layer id="slider-8-slide-8-layer-1" data-type="text" data-color="rgba(255, 255, 255, 1)" data-xy="xo:30px;y:m;yo:-140px,-100px,-180px,-180px;" data-text="w:normal,nowrap,normal,normal;s:90,80,70,40;l:90,80,70,50;ls:-5px,-5px,-5px,-3px;fw:100;" data-dim="w:auto,auto,501px,339px;" data-rsp_o="off" data-rsp_bd="off" data-padding="r:10,10,0,0;" data-frame_1="st:200;sp:700;sR:200;" data-frame_999="o:0;e:nothing;st:w;sR:8100;" style="z-index:9;font-family:Lato; font-size:10px; margin-bottom: 90px; margin-top: 200px">
-                                                                <span style="font-weight:400; font-size: 80px; margin-top: 90px; color: rgb(247, 186, 23)">Blogs</span> 
+                                                                <span style="font-weight:400; font-size: 80px; margin-top: 90px; color: rgb(247, 186, 23)">Contact</span> 
 															</rs-layer>
 															
 <!-- 
@@ -460,9 +461,87 @@
                                             <div class="vc_empty_space" style="height: 32px">
                                                 <span class="vc_empty_space_inner"></span>
                                             </div>
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-style:normal;font-size: 30px;margin-top:40px;" class="vc_custom_heading">
-                                                Articles
-                                            </h2>
+
+                                            <div class="container">
+                     
+                                                <div class="row" style="padding-bottom: 100px;">
+                                                    <div class="col-md-5">
+                                                        <p class="caption-title3">Get in Touch</p>
+                                                        <p class="contact-text">
+                                                            Interested to know more about <br />
+                                                            cryptocurrency? We'd be happy to <br />
+                                                            assist you.<br /><br />
+                        
+                                                            Please fill out our form below, and <br />
+                                                            we'll get back to you soon.
+                                                        </p>
+                                                    </div>
+                    
+                                                    <div class="col-md-7">
+                                                        <div id="contactsuccess" class="alert alert-success" role="alert">
+                                                            Message has been sent.
+                                                          </div>
+                                                          
+                                                        <form action="" class="contact-form" onsubmit="return sendEmailContactForm()">
+                                                            
+                                                            <div class="form-group">
+                                                                <div class="col-md-6">
+                                                                    <div class="palceholder">
+                                                                        <label for="name"><span class="star">*</span> First name</label>
+                                                                      </div>
+                                                                  <input type="text" id="firstName" placeholder="First Name" class="form-control contact-input" required>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="palceholder">
+                                                                        <label for="name"><span class="star">*</span> Last name</label>
+                                                                      </div>
+                                                                  <input type="text" id="lastName" placeholder="Last Name" class="form-control contact-input" required>
+                                                                </div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <div class="palceholder">
+                                                                        <label for="name"><span class="star">*</span> Email</label>
+                                                                      </div>
+                                                                  <input type="email" id="email" placeholder="Email" class="form-control contact-input" required>
+                                                                </div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <div class="palceholder">
+                                                                        <label for="name">Mobile Number (optional)</label>
+                                                                      </div>
+                                                                  <input type="number" id="mobileNumber" placeholder="Mobile Number (optional)" class="form-control contact-input">
+                                                                </div>
+                                                              </div>
+                                                              <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <!-- <div class="palceholder">
+                                                                        <label for="name"><span class="star">*</span> Messages</label>
+                                                                      </div> -->
+                                                                      <textarea id="messages" placeholder="Messages" value="" rows="13" cols="50" 
+                                                                      class="form-control contact-textarea" required></textarea>
+                                                                </div>
+                                                              </div>
+<!--                         
+                                                              <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <p class="form-reminder"><span class="star">*</span> Required Fields</p>
+                                                                </div>
+                                                            </div> -->
+                                                              
+                                                              <div class="form-group">
+                                                                <div class="col-md-12 btn-right">
+                                                                    <button type="submit" class="btn btn-warning contact-btn">SUBMIT</button>
+                                                                </div>
+                                                                </div>
+                                                              </div>
+                                                            
+                                                          </form>
+                                                          
+                                                    </div>
+                        
+                                                </div>
                                             
                                             
                                         </div>
@@ -471,186 +550,8 @@
                             </div>
                             
 
-                            <div class="vc_row wpb_row vc_row-fluid mpc-row" 
-                            data-row-id="mpc_row-79605bfaf855bb4">
-                            <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-19605bfaf854878">
-                                    <div class="vc_column-inner vc_custom_1590741595918">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1591283895934">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/1_Cryptocurrency.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/1_Cryptocurrency.jpg" 
-                                                        sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="What-You-Ought-To-Know-About-Cryptocurrency.html">   
-                                           <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" 
-                                           class="vc_custom_heading">
-                                            What You Ought To Know About Cryptocurrency
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-42605bfaf8552e6">
-                                    <div class="vc_column-inner vc_custom_1590741603595">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1592822003255">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/2_Bitcoin-and-Altcoin.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/2_Bitcoin-and-Altcoin.jpg" 
-                                                        sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="What-is-Bitcoin-Other-Types-of-Cryptocurrency.html">
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                                What is Bitcoin | Other Types of Cryptocurrency
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-45605bfaf855a6d">
-                                    <div class="vc_column-inner vc_custom_1590741610423">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1591283352536">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/3_Cloud-Mining.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/3_Cloud-Mining.jpg" sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div> 
-                                            <a href="Cloud-Mining-How-to-Get-Cryptocurrency.html">    
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                                Cloud Mining: How to Get Cryptocurrency
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
+                       
                             
-                            <div class="vc_row wpb_row vc_row-fluid mpc-row" 
-                            data-row-id="mpc_row-79605bfaf855bb4">
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-19605bfaf854878">
-                                    <div class="vc_column-inner vc_custom_1590741595918">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1591283895934">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/4_History-of-Cryptocurrency.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/4_History-of-Cryptocurrency.jpg" sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="History-of-Cryptocurrency.html">
-                                           <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                            History of Cryptocurrency
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-42605bfaf8552e6">
-                                    <div class="vc_column-inner vc_custom_1590741603595">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1592822003255">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/5_Blockchain.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/5_Blockchain.jpg" 
-                                                        sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="Blockchain-Technology-and-How-Cryptocurrency-Works.html">
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                                Blockchain Technology and How Cryptocurrency Works
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-45605bfaf855a6d">
-                                    <div class="vc_column-inner vc_custom_1590741610423">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1591283352536">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/6_Pros and cons.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/6_Pros and cons.jpg" sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div> 
-                                            <a href="Pros-and-Cons-of-Cryptocurrency-Should-I-Invest.html">
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                                Pros and Cons of Cryptocurrency: Should I Invest?
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="vc_row wpb_row vc_row-fluid mpc-row article-bg" 
-                            data-row-id="mpc_row-79605bfaf855bb4">
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-19605bfaf854878">
-                                    <div class="vc_column-inner vc_custom_1590741595918">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1591283895934">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/7_Is Crypto Safe.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/7_Is Crypto Safe.jpg" sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="is-Cryptocurrency-Safe-4-Ways-To-Invest-Safely.html">
-                                           <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                            Is Cryptocurrency Safe? 4 Ways to Invest Safely
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-4 mpc-column" data-column-id="mpc_column-42605bfaf8552e6">
-                                    <div class="vc_column-inner vc_custom_1590741603595">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1592822003255">
-                                                <figure class="wpb_wrapper vc_figure">
-                                                    <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                        <img width="521" height="392" src="assets/img/blog/8_How Crypto is Created.jpg" 
-                                                        class="vc_single_image-img attachment-full" alt="" srcset="assets/img/blog/8_How Crypto is Created.jpg" 
-                                                        sizes="(max-width: 521px) 100vw, 521px">
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                            <a href="How-Cryptocurrency-Is-Created.html">
-                                            <h2 style="text-align: left;font-family:Lato;font-weight:1000;font-size:22px;font-style:normal;margin-bottom: 12px;" class="vc_custom_heading">
-                                                How Cryptocurrency is Created
-                                            </h2>
-                                            </a>
-                                            <p>By: Reyna Cadiz - March 2021</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
 
         <!---- About Data Mining -->
 		<div class="vc_row-full-width vc_clearfix"></div>
@@ -749,7 +650,7 @@
 				<div class="vc_empty_space" style="height: 32px">
 					<span class="vc_empty_space_inner"></span>
 				</div>
-				<h2 style="text-align: center;font-family:Lato;font-weight:400;font-style:normal;margin-top:40px;" class="vc_custom_heading">
+				<h2 style="text-align: center;font-family:Lato;font-weight:400;font-style:normal;margin-top:40px;font-size: 23px !important;line-height: 34px !important;margin-bottom: 25px !important;" class="vc_custom_heading">
                     We thrive in the architecture of change. <br/>We exist to enable and shape the ecosystem of blockchain that is healthy and sustainable without borders.</h2>
 			</div>
 		</div>
@@ -1074,5 +975,8 @@ var _mpc_scroll_to_id = "1";
 <script type='text/javascript' src='https://www.swagyourlife.com/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
 <script type='text/javascript' src='https://www.swagyourlife.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.2.0'></script>
 <script type='text/javascript' src='https://www.swagyourlife.com/wp-content/plugins/mpc-massive/assets/js/libs/isotope.min.js?ver=5.4.2'></script>
+
+<script type='text/javascript' src='assets/js/email.js'></script>
+
 </body>
 </html>

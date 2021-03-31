@@ -297,6 +297,86 @@
   margin-bottom: 60px !important;
 }
 
+.caption-title3 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 70px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.contact-text {
+  color: #373d56;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+}
+
+#contactsuccess {
+  float: right;
+  width: 100%;
+  display: none;
+}
+
+.contact-form {
+  margin-top: 100px;
+}
+
+.contact-input {
+  border-radius: 0 !important;
+  height: 42px !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+  line-height: 100% !important;
+  padding: 10px;
+  text-align: left;
+  margin-top: 20px;
+  background-color: #e7f0ff !important;
+}
+
+.contact-btn {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+span.star {
+  color: red;
+}
+
+.btn-right {
+  text-align: right;
+}
+
+p.form-reminder {
+  text-align: left;
+}
+
+.contact-textarea {
+  border-radius: 0 !important;
+  font-size: 18px !important;
+  box-shadow: none !important;
+  line-height: 100% !important;
+  padding: 10px;
+  text-align: left;
+  margin-top: 20px;
+  background-color: #e7f0ff !important;
+  resize: none;
+}
+
+.form-group .palceholder {
+  position: absolute;
+  top: 35px;
+  left: 22px;
+  color: #b1b1b1;
+  display: none;
+}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
