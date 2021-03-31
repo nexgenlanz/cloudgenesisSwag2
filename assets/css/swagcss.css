@@ -288,6 +288,22 @@
 
 }
 
+/*********************** What We Do **********************/
+
+.mining-bg {
+  background-color: #f7f7fc !important;
+}
+
+.paddingtop1 {
+  padding-top: 20px !important;
+}
+
+.marginbottom1 {
+  margin-bottom: 40px !important;
+}
+
+
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .bitcoin {
