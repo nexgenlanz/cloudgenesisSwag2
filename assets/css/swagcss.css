@@ -272,13 +272,17 @@
 }
 
 .mining-bg1 {
-  background-color: #070f1d !important
+  background-color: black !important
 }
 
 .crypto-bg {
   background-color: #f7f7fc !important;
   padding-top: 60px;
   padding-bottom: 70px;
+}
+
+.article-bg {
+  padding-bottom: 50px;
 }
 
 .paddingtop1 {
