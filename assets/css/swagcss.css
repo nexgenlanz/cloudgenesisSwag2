@@ -152,6 +152,9 @@
     margin: 0;
     width: 47% !important;
   }
+  .border-right {
+    border-right: none;
+  }
   /**************************** Home ****************************/
 
   .wpb_wrapper {
@@ -239,6 +242,9 @@
     width: 47% !important;
   }
 
+  .border-right {
+    border-right: none;
+  }
   /*********************** Home **********************/
   .into-message-oppurtunities {
     font-size: 30px !important;
@@ -304,6 +310,7 @@
 
 
 
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .bitcoin {
@@ -329,6 +336,9 @@
     width: 47% !important;
   }
 
+  .border-right {
+    border-right: none;
+  }
   .into-message-oppurtunities {
     font-size: 30px !important;
     position: relative;
