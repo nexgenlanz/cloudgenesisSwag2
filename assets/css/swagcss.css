@@ -294,10 +294,20 @@
 
 }
 
-/*********************** What We Do **********************/
+/*********************** Other Pages **********************/
 
 .mining-bg {
   background-color: #f7f7fc !important;
+}
+
+.mining-bg1 {
+  background-color: #070f1d !important
+}
+
+.crypto-bg {
+  background-color: #f7f7fc !important;
+  padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .paddingtop1 {
@@ -308,6 +318,9 @@
   margin-bottom: 40px !important;
 }
 
+.marginbottom2 {
+  margin-bottom: 60px !important;
+}
 
 
 
