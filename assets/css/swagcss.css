@@ -226,6 +226,12 @@
   }
 
   /*********************** Home **********************/
+  .into-message-oppurtunities {
+    font-size: 35px !important;
+    position: relative;
+    top: 10px !important;
+    margin-bottom: 20px;
+  }
   .intro-message-lifesytle-1 {
     font-size: 29px !important;
     line-height: 20px !important;
@@ -289,6 +295,12 @@
     width: 47% !important;
   }
 
+  .into-message-oppurtunities {
+    font-size: 35px !important;
+    position: relative;
+    top: 10px !important;
+    margin-bottom: 20px;
+  }
   .text-align-left {
     text-align: center;
     font-size: 10px;
