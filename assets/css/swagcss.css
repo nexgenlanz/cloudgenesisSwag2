@@ -582,7 +582,7 @@ ul.blogs-socialmedia {
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 
   .colortext {
     margin-top: 600px;
@@ -615,6 +615,14 @@ ul.blogs-socialmedia {
   .border-right {
     border-right: none;
   }
+  .intro-background {
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 65px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1165px !important;
+    background-repeat: no-repeat !important;
+}
   .into-message-oppurtunities {
     font-size: 30px !important;
     position: relative;
