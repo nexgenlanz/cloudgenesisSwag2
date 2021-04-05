@@ -189,11 +189,13 @@
     border-right: none;
   }
   .intro-background {
-    background-image: url("../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif");
-    background-size: cover;
-    background-position-x: 600px;
-    
-  }
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 0px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1800px !important;
+    background-repeat: no-repeat !important;
+}
   /**************************** Home ****************************/
 
   .wpb_wrapper {
@@ -297,10 +299,13 @@
     border-right: none;
   }
   .intro-background {
-    background-image: url("../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif");
-    background-size: cover;
-    background-position-x: 600px;
-    
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 0px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1800px !important;
+    background-repeat: no-repeat !important;
+}
   }
   /*********************** Home **********************/
   .into-message-oppurtunities {
