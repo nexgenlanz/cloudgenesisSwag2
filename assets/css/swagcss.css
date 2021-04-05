@@ -378,8 +378,10 @@
 }
 .intro-background {
   background-image: url("../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif");
-  background-size: cover;
-  background-position-x: 600px;
+  background-position-x: 2450px;
+  background-position-y: 20px;
+  background-blend-mode:color-dodge;
+  background-size: 1800px
   
 }
 
