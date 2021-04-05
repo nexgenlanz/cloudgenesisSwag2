@@ -244,6 +244,10 @@
     margin-top: 600px;
   }
 
+  #site-header {
+    display: none ;
+  }
+
   .text-align-left {
     text-align: center;
     font-size: 10px;
@@ -610,5 +614,55 @@ ul.blogs-socialmedia {
     position: relative;
     top: 18px;
     margin-bottom: 20px !important;
+  }
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  header#mobile-site-header {
+      display: block;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 25% !important;
+  }
+  .text-align-left {
+    text-align: left;
+    font-size: 10px;
+    float: left;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    header#mobile-site-header {
+      display: block;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 25% !important;
+  }
+  .text-align-left {
+    text-align: left;
+    font-size: 10px;
+    float: left;
   }
 }
