@@ -37,11 +37,17 @@
 .site-info .copyright-separator {
   border-top: 0px !important;
 }
+
 .intro-background {
-  background-image: url("../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif");
-  background-size: cover;
-  
+  background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+  background-position-x: 99% !important;
+  background-position-y: 0px !important;
+  background-blend-mode: color-dodge !important;
+  background-size: 1800px !important;
+  background-repeat: no-repeat !important;
 }
+
+
 .bitcoin {
   position: absolute;
   right: 4%;
@@ -377,12 +383,12 @@
   margin-bottom: 60px !important;
 }
 .intro-background {
-  background-image: url("../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif");
-  background-position-x: 2450px;
-  background-position-y: 20px;
-  background-blend-mode:color-dodge;
-  background-size: 1800px
-  
+  background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+  background-position-x: 99%;
+  background-position-y: 0px;
+  background-blend-mode: color-dodge;
+  background-size: 1800px;
+  background-repeat: no-repeat;
 }
 
 .caption-title3 {
