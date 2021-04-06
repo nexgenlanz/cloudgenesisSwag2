@@ -313,16 +313,17 @@
     background-blend-mode: color-dodge !important;
     background-size: 1800px !important;
     background-repeat: no-repeat !important;
-}
   }
+  
   /*********************** Home **********************/
   .into-message-oppurtunities {
-    font-size: 71% !important;
+    font-size: 74% !important;
     position: relative;
     top: 10px !important;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    letter-spacing: -3px;
     color: rgb(247, 186, 23);
-  }
+}
   .intro-message-lifesytle-1 {
     font-size: 61% !important;
     line-height: 20px !important;
@@ -354,7 +355,7 @@
     top: -21px;
   }
   .text-align-left {
-    text-align: left;
+    text-align: center;
     font-size: 10px;
   }
   .vc_col-sm-4.text-align-right {
@@ -641,6 +642,7 @@ ul.blogs-socialmedia {
     top: 10px !important;
     margin-bottom: 20px;
     color: rgb(247, 186, 23);
+    letter-spacing: -1px;
   }
   .text-align-left {
     text-align: center;
