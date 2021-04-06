@@ -145,7 +145,7 @@
 }
 
 .into-message-oppurtunities {
-  font-size: 65px !important;
+  font-size: 100px !important;
   position: relative;
   top: 10px !important;
   margin-bottom: 20px;
@@ -313,22 +313,22 @@
   }
   /*********************** Home **********************/
   .into-message-oppurtunities {
-    font-size: 30px !important;
+    font-size: 71% !important;
     position: relative;
     top: 10px !important;
     margin-bottom: 20px;
     color: rgb(247, 186, 23);
   }
   .intro-message-lifesytle-1 {
-    font-size: 29px !important;
+    font-size: 61% !important;
     line-height: 20px !important;
     position: relative;
-    top: 20px;
+    top: -30px;
   }
   .intro-message-lifesytle-2 {
-    font-size: 40px !important;
+    font-size: 61% !important;
     position: relative;
-    top: 34px;
+    top: 20px;
     margin-bottom: 20px !important;
   }
   .into-message {
@@ -651,7 +651,7 @@ ul.blogs-socialmedia {
     font-size: 20px !important;
   }
   .intro-message-lifesytle-1 {
-    font-size: 29px !important;
+    font-size: 65% !important;
     line-height: 20px !important;
     position: relative;
     top: 14px;
