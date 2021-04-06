@@ -47,7 +47,11 @@
   background-repeat: no-repeat !important;
 }
 
-
+.scrollToTop.scrollactive {
+  bottom: 15px;
+  background-color: black;
+  padding-top: 6px;
+}
 .bitcoin {
   position: absolute;
   right: 4%;
