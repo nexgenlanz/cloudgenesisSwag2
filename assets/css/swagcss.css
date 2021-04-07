@@ -175,6 +175,14 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
+
   .colortext {
     margin-top: 600px;
   }
@@ -277,6 +285,14 @@
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
 
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
+  
   .colortext {
     margin-top: 600px;
   }
@@ -605,8 +621,21 @@ ul.blogs-socialmedia {
   margin-top: 20px;
 }
 
+ul, li {
+  margin: 0px;
+  list-style-type: none;
+}
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
 
   .colortext {
     margin-top: 600px;
