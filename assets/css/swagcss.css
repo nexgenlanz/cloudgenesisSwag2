@@ -720,6 +720,20 @@ ul, li {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
+
+.separator {
+  width: 94%;
+}
+
+.related-img {
+  width:65%;
+  height: auto;
+}
+
+.margin-tablet {
+  margin-right: 25px;
+}
+
   header#mobile-site-header {
       display: block;
   }
@@ -744,6 +758,20 @@ ul, li {
   and (min-device-width: 834px) 
   and (max-device-width: 1112px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .separator {
+      width: 99%;
+    }
+
+    .related-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .margin-tablet {
+      margin-right: -8px;
+    }
+
     header#mobile-site-header {
       display: block;
   }
