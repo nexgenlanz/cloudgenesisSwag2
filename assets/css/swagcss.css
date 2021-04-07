@@ -65,6 +65,9 @@
 .white-color {
   color: white !important;
 }
+.light-font {
+  font-weight: 300;
+}
 
 .yellow-color {
   color: rgb(247, 186, 23);
