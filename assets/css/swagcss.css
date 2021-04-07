@@ -47,6 +47,14 @@
   background-repeat: no-repeat !important;
 }
 
+.intro-text-header {
+  z-index:9;
+  font-family:Lato; 
+  font-size:10px; 
+  margin-bottom: 90px; 
+  margin-top: 60px
+}
+
 .scrollToTop.scrollactive {
   bottom: 15px;
   background-color: black;
